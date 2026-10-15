@@ -1,7 +1,7 @@
 <?php
 // For local development only. Use environment variables on a shared server.
 $host = getenv('DB_HOST') ?: 'localhost';
-$user = getenv('DB_USER') ?: 's68160383@localhost';
+$user = getenv('DB_USER') ?: 's68160383';
 $pass = getenv('DB_PASS') ?: 'K2SDuSaN';
 $dbname = getenv('DB_NAME') ?: 's68160383';
 $conn = mysqli_connect($host, $user, $pass, $dbname);
