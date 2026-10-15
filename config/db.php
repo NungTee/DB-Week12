@@ -1,6 +1,6 @@
 <?php
 // For local development only. Use environment variables on a shared server.
-$host = getenv('DB_HOST') ?: 'localhost';
+$host = getenv('DB_HOST') ?: 'angsila.cs.buu.ac.th';
 $user = getenv('DB_USER') ?: 's68160383';
 $pass = getenv('DB_PASS') ?: 'K2SDuSaN';
 $dbname = getenv('DB_NAME') ?: 'resume_lab';
